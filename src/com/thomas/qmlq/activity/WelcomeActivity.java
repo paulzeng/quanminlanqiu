@@ -28,7 +28,7 @@ public class WelcomeActivity extends BaseActivity implements OnClickListener {
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		if (BaseApplication.mInstance.getUserInfo(this).isLogin()) {
-			startActivity(new Intent(this, MainActivity.class));
+			startActivity(new Intent(this, SplashActivity.class));
 			return;
 		}
 		setContentView(R.layout.activity_welcome);
