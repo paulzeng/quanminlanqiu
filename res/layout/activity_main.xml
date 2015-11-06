@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhy="http://schemas.android.com/apk/res/com.thomas.qmlq"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/layout_title" />
+
+    <com.thomas.qmlq.view.ControlScrollViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </com.thomas.qmlq.view.ControlScrollViewPager>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@drawable/tabbg"
+        android:orientation="horizontal" >
+
+        <com.thomas.qmlq.view.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            zhy:icon_wx="@drawable/ic_menu_start_conversation"
+            zhy:text_size_wx="14sp"
+            zhy:text_wx="训练" />
+
+        <com.thomas.qmlq.view.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            zhy:icon_wx="@drawable/ic_menu_friendslist"
+            zhy:text_size_wx="14sp"
+            zhy:text_wx="场馆" />
+
+        <com.thomas.qmlq.view.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_three"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            zhy:icon_wx="@drawable/ic_menu_emoticons"
+            zhy:text_size_wx="14sp"
+            zhy:text_wx="附近" />
+
+        <com.thomas.qmlq.view.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_four"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            zhy:icon_wx="@drawable/ic_menu_allfriends"
+            zhy:text_size_wx="14sp"
+            zhy:text_wx="我的" />
+    </LinearLayout>
+
+</LinearLayout>

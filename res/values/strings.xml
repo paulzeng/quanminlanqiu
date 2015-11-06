@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">全民篮球</string>
+    <string name="txt_loading">加载中，请稍后...</string>
+    <string name="title_home">我的设备</string>
+    <string name="title_user">用户中心</string>
+    <string name="login_title">登录</string>
+    <string name="register_title">注册</string>
+    <string name="register_phone">请输入手机号码</string>
+    <string name="register_pwd">请输入密码</string>
+    <string name="register_zhengce"><u>使用条款和隐私政策</u></string>
+    <string name="dialog_loading">请稍等&#8230;</string>
+    <string name="dialog_loading_login">登录中，请稍等&#8230;</string>
+    <string name="person_title">注册</string>
+    <string name="txt_recommend">推荐用户</string>
+
+    <!-- user head -->
+    <string name="toast_no_sd">请检查你的"战斗"机是否有sd卡</string>
+    <string name="toast_no_album">我寻寻觅觅，没有找到系统相册</string>
+    <string name="toast_photo_empty">请检查你的"装备",图片无法获取！</string>
+    <string name="toast_un_image">不要坑我吧，你选择的不是图片</string>
+    <string name="cancle">取消</string>
+    <string name="sex_male">男</string>
+    <string name="sex_female">女</string>
+    
+    <string name="photo_camera">拍照</string>
+    <string name="photo_album">手机相册</string>
+    <string name="choose_phone">选择图片</string>
+    
+    <string name="txt_save">保存</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp" 
+    android:orientation="vertical" >
+    <ImageView
+            android:id="@+id/iv_vedio_img"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/vedio_deault"
+            android:scaleType="centerCrop" />
+	<ImageView
+            android:id="@+id/iv_play_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/action_start"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop" />
+	<ImageView
+            android:id="@+id/iv_pause_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/action_pause"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:scaleType="centerCrop" />
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_100"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/edit_sign_top"
+        layout="@layout/layout_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_marginTop="20dp"
+        android:background="@color/white" >
+
+        <EditText
+            android:id="@+id/edt_sign"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_height"
+            android:background="@null"
+            android:paddingLeft="10dp"
+            android:text="总有风景在身边"
+            android:textColor="@color/grey_700"
+            android:textCursorDrawable="@null" />
+
+        <ImageView
+            android:id="@+id/iv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/icon_searchbar_clean" />
+    </RelativeLayout>
+</LinearLayout>
